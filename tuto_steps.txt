@@ -1,0 +1,21 @@
+python setup.py sdist bdist_wheel
+pip3 install twine
+twine upload dist/*
+(créer compte https://upload.pypi.org/legacy/)
+pip3 install mygtestabcde
+python
+from mygtestabcdefg import Ml
+test = Ml("Nouha")
+print(test)
+
+
+ne pas oublier de mettre le même nom partout
+
+pypi créer un package et le rendre publc :
+	(https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65edc5fe9c56)
+	https://github.com/joelbarmettlerUZH/Scrapeasy
+
+
+
+docker tuto + app : 
+	https://www.youtube.com/watch?v=bi0cKgmRuiA
